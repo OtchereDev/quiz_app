@@ -1,0 +1,37 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.attached {
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.attached h1 {
+    font-size: 5rem;
+}
+
+.score {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.527);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    display: none;
+}
+
+.score h1 {
+    font-size: 30px;
+}
+
+.score h1 .total {
+    font-size: 60px;
+}

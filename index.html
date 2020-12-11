@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App!</title>
+</head>
+
+<body>
+    <div class="container attached bg-light d-flex">
+        <h1 class="text-primary text-center">Quiz App!</h1>
+        <div class="score">
+            <h1>Your Score is
+                <span class="total"> 100% </span></h1>
+        </div>
+    </div>
+    <div class="container text-light bg-dark form-div pb-4">
+        <form class="form pt-3">
+            <div class="question">
+                <h3>
+                    Q1. Who is a ninja ?
+                </h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='A' name="q1" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Net Ninja
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='B' name="q1" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Traversy
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="question">
+                <h3>
+                    Q2. What is the best language ?
+                </h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='A' name="q2" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      JavaScript
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='B' name="q2" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Python
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="question">
+                <h3>
+                    Q3. Where do i live ?
+                </h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='A' value="" name="q3" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Mars
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='B' name="q3" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                     Earth
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <div class="question">
+                <h3>
+                    Q4. What is a ninja ?
+                </h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='A' name="q4" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      I am
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" value='B' name="q4" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Dont Bother
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <button class="btn btn-primary mt-2" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
